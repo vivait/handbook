@@ -92,3 +92,7 @@ The performance appraisal is a formal record of your work to-date, with goals se
 * ✍️  Pen/Notebook
 
 Planning poker can take place in either a scheduled manner at 5pms, or whenever requested by a developer. It is used to get a time estimate for tasks so that they can be scheduled correctly, and so that it is easier to identify problems/keep the task on track. Each participant will give an honest estimate of how long they feel the task will take, and those estimates are then consolidated into a single time after discussion (if required).
+
+# Development Environment
+## Vagrant
+* `vagrant plugin install vagrant-triggers`
