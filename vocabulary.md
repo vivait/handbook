@@ -16,5 +16,13 @@ We try and make sure that we use language that isn't too full of technical jargo
 
 **Planning Poker:** While typically done in the fashion described [here](https://www.mountaingoatsoftware.com/agile/planning-poker) - ours is slightly different. We don't stick to set story points, because we use hours to estimate tasks. Therefore we each estimate how long a task will take, and keep our estimate secret until revealing it once everyone has one. Through this, we will then either discuss the times (if there's a wide variance in high & low time estimates) or generally pick the higher estimate if the estimates are all fairly similar. For example, if 2 people say 4 hours and one person says 5, we might discuss it and either could be valid. But if 2 people say 5 hours and one person says 4, we'll likely pick 5 hours.
 
+## Task Types
 
+**Deliverable:** A deliverable is a unit of development that groups up individual tasks into an overall deliverable, for example, "Automatic Credit Searching" may be a deliverable which will encompass multiple tasks to achieve this deliverable. Generally speaking a deliverable can be user-acceptance-tested, however the individual tasks are more likely to be tested individually.
+
+**Task:** A task can be seen as a unit of development that can be operated on independently. It might be possible that two or more developers can pick up tasks within the same deliverable and be able to work collaboratively without 'stepping on toes'. Once a task has been developed, it can be user-acceptance-tested by the client. An example Task might be 'Migration of Database from Schema A to Schema B' to support the deliverable.
+
+**Subtask:** A task that is further broken down into a unit of development that does not need user-acceptance-tested, and could serve as a 'todo' list for a larger Task. It would still have to be tested, but the client typically does not need to know about subtasks and they may contain development heavy terminology.
+
+It is not necessary to have all task types, for efficiency and brevity only split up deliverables and tasks if there is a practical need.
 
