@@ -42,9 +42,6 @@ Parsing this section is not essential to contributing meaningfully in the bug re
 
 Very important bugs will be exceptions which will be dealt with informally as escalations outside of this process (this applies to some bugs classed as high, and all bugs prioritised as above high), because they cannot wait. Helpdesk issues are also resolved outside of this process.
 
-Bug Product Owners ( e.g. Set Priority, On Hold, State:New ): 
-- Kiel: ADHOC, APP, APL, APS, DOC
-- Leighton: AMO (Joint), APF, TAS, AMI
-- Kane: AMO (Joint), APW, AMA
+Bug Product Owners ( e.g. Set Priority, On Hold, State:New). The list can be found in [Hub Projects](https://hub.vivait.co.uk/hub/projects)
 
 Bugs can be tagged within YouTrack with the #5pm tag to prompt discussion.
