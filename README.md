@@ -7,3 +7,4 @@
 * [Learning](learning.md)
 * [Development](development.md)
 * [Showstoppers](showstopper.md)
+* [PartnerGuide](PartnerGuide.md)
