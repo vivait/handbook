@@ -10,3 +10,6 @@
 * [Showstoppers](showstopper.md)
 * [Client Development](ClientWork.md)
 * [Weekly Bug Review](bugs.md)
+* [Contact Details](contact.md)
+* [Glossary](glossary.md)
+
