@@ -8,5 +8,5 @@
 * [Learning](learning.md)
 * [Development](development.md)
 * [Showstoppers](showstopper.md)
-* [PartnerGuide](PartnerGuide.md)
+* [Client Development](ClientWork.md)
 * [Weekly Bug Review](bugs.md)
