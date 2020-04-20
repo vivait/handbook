@@ -1,6 +1,6 @@
 *Please consult [Client Glossary](glossary.md) for clarification on terms and [Contact Details](contact.md) for the latest specific contact information.*
 
-### Commissioning new development work
+# Commissioning new development work
 
 Expect a 4-6 week lead time from fully specifying a requirement until development begins. Scheduling escalations are available upon request at additional cost, due to the scheduling impacts this causes. Please contact a member of our team to discuss any specific escalation requirement.
 
@@ -16,13 +16,13 @@ Here is a step by step illustration of the life cycle of a requirement from ince
 
 * Once **scheduled in for development by mutual agreement**, the works are undertaken and you will be asked to test the resulting work. This User Acceptance Testing phase involves the partner 'checking' and 'signing off' the work as completed to pre-agreed specification.
 
-### Collaboration with 'Youtrack'
+## Collaboration with 'Youtrack'
 
 YouTrack is our task tracking and coordinating software. We use this to sort development works and programmes into discrete tasks with defined beginnings and ends. This is where administration regarding items on your development to-do list are stored, as well as all relevant communications on a given issue.  
 
 We grant our partners access to this tool to enable effective collaboration. Usually access will be granted to a key operational stakeholder on our partners side. The basic commands are easy to learn and you will be guided through in a process that takes approximately 20-30 minutes including tutorial.
 
-### User Acceptance Testing 
+## User Acceptance Testing 
 
 Our approach to development involves iterating on existing work in discrete increments. Therefore all of the work we undertake has predetermined criteria at for being considered 'done' which are established from the outset when work specifications are created and 'signed off' with our partners following User Acceptance Testing.
 
@@ -52,7 +52,7 @@ Youtrack is used as the coordinating medium for UAT feedback, along with partner
 
 UAT responses from partners are desired within 24 hours where possible, within 7 days at a maximum.
 
-### Monthly Retained Development meetings
+## Monthly Retained Development meetings
 
 Once a month you will have a one-on-one meeting with your account manager to maintain the programme of works for your organisation. 
 
@@ -60,7 +60,7 @@ As well as housekeeping (such as keeping abreast of staff changes), topics will 
 
 Participating in these meetings ensures you get the maximum value out of your retained development time and allows the next months time to be scheduled. In January for example, we will be discussing the work you require for completion by end of February providing it is fully specified at the time of discussion.
 
-### Backlog prioritisation
+## Backlog prioritisation
 
 How you spend retained development time is up to you, and may include minor tweaks or major projects spaced out over time. It is important that both partner stakeholders and Viva IT agree on the top few priorities at any given time, as we will work strictly in the order agreed. Talk to your account manager if you have any queries as to your retained development time entitlement or available balance.
 
