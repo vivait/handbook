@@ -12,4 +12,4 @@
 * [Weekly Bug Review](bugs.md)
 * [Contact Details](contact.md)
 * [Glossary](glossary.md)
-
+* [Logging levels](logging.md)
