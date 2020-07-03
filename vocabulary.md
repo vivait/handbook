@@ -84,7 +84,6 @@ The spreadsheets we create to provide instructions to our development team on ho
 
 The issue tracking software used by the Viva IT team to manage and coordinate the work items we are undertaking for you (both new development and helpdesk tickets).
 
+## Zombie Task
 
-
-
-
+Slow moving tasks that don't get completed, or are at risk of not being completed. They can have a tendancy to consume a lot of time through client correspondence or internal discussions but they cannot be completed. This could be because they are poorly specified or they represent extremely long processes with multiple stages of completion, in this case they should be converted to deliverables with an Acceptance Criteria that can be tracked with milestones. They should be clearly identified with a `Zombie` tag in YouTrack.
