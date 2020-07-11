@@ -1,32 +1,32 @@
 # Viva IT Handbook
 
 ## Introduction
-* [Our Values](values.md)
-* [Meetings](meetings.md)
+* [Our Values](docs/values.md)
+* [Meetings](docs/meetings.md)
 
 ## Training
-* [Collaboration](collaboration.md)
-* [Learning](learning.md)
+* [Collaboration](docs/collaboration.md)
+* [Learning](docs/learning.md)
 
 ## Emergency 
-* [Showstoppers](showstopper.md)
+* [Showstoppers](docs/showstopper.md)
 
 ## Agendas
-* [Retrospective](retrospective.md)
-* [Planning](planning.md)
-* [One to One](one2one.md)
+* [Retrospective](docs/retrospective.md)
+* [Planning](docs/planning.md)
+* [One to One](docs/one2one.md)
 
 ## Client 
-* [Client Development](clientwork.md)
-* [Contact Details](contact.md)
-* [Support](support.md)
+* [Client Development](docs/clientwork.md)
+* [Contact Details](docs/contact.md)
+* [Support](docs/support.md)
 
 ## Development 
-* [Development](development.md)
-* [Weekly Bug Review](bugs.md)
-* [Logging levels](logging.md)
-* [Bugs](bugs.md)
+* [Development](docs/development.md)
+* [Weekly Bug Review](docs/bugs.md)
+* [Logging levels](docs/logging.md)
+* [Bugs](docs/bugs.md)
 
 ## Appendix and Other Resources
-* [Vocabulary](vocabulary.md)
+* [Vocabulary](docs/vocabulary.md)
 * [License](LICENSE.md)
