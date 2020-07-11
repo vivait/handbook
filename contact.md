@@ -1,9 +1,7 @@
-*Please consult [Client Glossary](glossary.md) for clarification on terms used.*
-
 # Contact Details
 
 ## Helpdesk - Email
-Helpdesk@vivait.co.uk
+[helpdesk@vivait.co.uk](mailto:helpdesk@vivait.co.uk)
 
 ## Status Notifications
 https://status.vivait.co.uk/

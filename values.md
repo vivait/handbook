@@ -3,6 +3,8 @@
 At our core we try and:
 
 * Be ethical in what we do, and who we work with.
+* Have a zero tolerance towards discrimination. 
+* Be considerate in our environment.
 * Innovate and push the boundaries of what's possible within the industries we work in.
 * Iterate and improve ourselves over time. This means starting with _something_, even if it's not perfect, we can improve upon it going forward.
 * Allow autonomy in working and not control every aspect of how people get things done.

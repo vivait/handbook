@@ -1,4 +1,5 @@
-*Please consult [Client Glossary](glossary.md) for clarification on terms used and [Contact Details](contact.md) for the latest specific contact information.*
+*Please consult [Vocabulary](vocabulary.md) for clarification on terms used and [Contact Details](contact.md) for the
+ latest specific contact information.*
 
 ### Email based Helpdesk for service issues
 
