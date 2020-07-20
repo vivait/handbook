@@ -68,6 +68,11 @@ It is not necessary to have all task types, for efficiency and brevity only spli
 
 Our original credit union workstream management tool, currently being phased out.
 
+## Timebox
+A timebox is when an amount of time is placed onto a task instead of an estimate if the scope of the task is unknown/unclear. Once the time limit that was set has been reached, progress through the task will be assessed and the next step will be determined. The next step is usually just an extension of the timebox (causing the process to repeat) or a formal planning poker session.
+
+Timeboxes are useful for proof-of-concepts and investigation into third-party services/systems.
+
 ## Tracking Code
 
 Issued via the Helpdesk or youtrack, a code similar to 'ABC-123' unique for tracking the status of each work item with us. A 'case reference'.
