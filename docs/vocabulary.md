@@ -85,6 +85,10 @@ The end-user version of AC
 
 The spreadsheets we create to provide instructions to our development team on how to construct your forms.
 
+## WIP (Work In Progress)
+
+Abbreviation used in Git Commits
+
 ## YouTrack
 
 The issue tracking software used by the Viva IT team to manage and coordinate the work items we are undertaking for you (both new development and helpdesk tickets).
