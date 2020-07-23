@@ -10,6 +10,10 @@ We try and make sure that we use language that isn't too full of technical jargo
 
 The AC helps define what a task should do, consider it a minimum to the task being signed off by the ultimate client. It may be changed over time (this will be considered a scope extension and may attract a re-estimate), it may be reduced, it may be 'spun-out' into another task. The user-acceptance criteria may be defined by this (what will be tested in UAT)
 
+## APF ([Apollo Flow](https://github.com/vivait/apollo-flow))
+
+Apollo Flow - Data capture platform with workflows
+
 ## Apollo
 
 The name for our suite of joined-up services, from the the form a member completes on their app through to the automated decisioning and import into your back office software, and everything in between.
@@ -84,6 +88,10 @@ The end-user version of AC
 ## Workflow Specification
 
 The spreadsheets we create to provide instructions to our development team on how to construct your forms.
+
+## WIP (Work In Progress)
+
+Abbreviation used in Git Commits
 
 ## YouTrack
 
