@@ -18,6 +18,7 @@ The following list might seem a little buzzword-y, but it's just a list of some 
 * AWS (EC2, RDS, Aurora, ECS, Fargate, SSM, Lambda)
 * Docker (previously Vagrant & Ansible)
 * PhpStorm - PHP IDE of choice for most developers here
+* PHPUnit
 * SequelPro
 
 
