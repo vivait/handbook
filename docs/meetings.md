@@ -50,7 +50,7 @@ will be noted and used as the basis for future sprints.
 * 🗺 Round Table or Named Hangout
 * 📣 Invited in Google Calendar
 * ✍️  Pen/Notebook and iPad
-* 📋 Follow the [Planning](scheduling.md) agenda
+* 📋 Follow the [Work Scheduling](scheduling.md) agenda
 
 This meeting covers the next week or two worth of work prior to the meeting you should have your
 goals and plans so they can be considered and scheduled.
