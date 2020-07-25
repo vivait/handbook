@@ -12,8 +12,9 @@
 * [Showstoppers](docs/showstopper.md)
 
 ## Agendas
+* [Scrum & PP](docs/scrum.md)
 * [Retrospective](docs/retrospective.md)
-* [Planning](docs/planning.md)
+* [Work Scheduling](docs/scheduling.md)
 * [One to One](docs/one2one.md)
 
 ## Client 
@@ -24,9 +25,12 @@
 ## Development 
 * [Development](docs/development.md)
 * [Weekly Bug Review](docs/bugs.md)
-* [Logging levels](docs/logging.md)
+* [Logging Levels](docs/logging.md)
 * [Bugs](docs/bugs.md)
 
-## Appendix and Other Resources
+## Appendix and References
 * [Vocabulary](docs/vocabulary.md)
+* [Task States](docs/taskstates.md)
+* [Task Tags](docs/tasktags.md)
+* [Task Priorities](docs/taskpriorities.md)
 * [License](LICENSE.md)

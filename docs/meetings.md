@@ -11,7 +11,7 @@ Show-stoppers are not considered meetings, they follow a [separate process](show
 * 🗺 Round Table or Named Hangout
 * 📣 LaMetric notification, please be prompt and on-time _(arrive slightly before)_
 * ✍️  Pen/Notebook
-* 📋 Cover the deploying/UAT items, blocked items, what everyones daily plan is and upcoming news
+* 📋 Follow the [Scrum & PP](scrum.md) agenda
 * ⚡ Automatically invited
 
 The scrum is an opportunity for everyone to discuss upcoming work, everyone is expected to know the status of their work
@@ -50,7 +50,7 @@ will be noted and used as the basis for future sprints.
 * 🗺 Round Table or Named Hangout
 * 📣 Invited in Google Calendar
 * ✍️  Pen/Notebook and iPad
-* 📋 Follow the [Planning](planning.md) agenda
+* 📋 Follow the [Planning](scheduling.md) agenda
 
 This meeting covers the next week or two worth of work prior to the meeting you should have your
 goals and plans so they can be considered and scheduled.
@@ -78,10 +78,11 @@ The performance appraisal is a formal record of your work to-date, with goals se
 
 ## Planning Poker (PP)
 * 👩 Some (or all) Developers
-* ⏰ 5pms or Adhoc (any time when requested)
+* ⏰ PP or Adhoc (any time when requested)
 * ⏳ ~2 minutes per task being estimated (PP'd)
 * 🗺 Round Table or Named Hangout
-* 📣 Announced in the #5pm Slack channel, or the #dev-team channel
+* 📣 Announced in the #PP Slack channel, or the #dev-team channel
+* 📋 Follow the [Scrum & PP](scrum.md) agenda
 * ✍️Pen/Notebook
 
 Planning poker can take place in either a scheduled manner, after the scrum, or whenever requested by a developer. It
@@ -93,11 +94,7 @@ identify problems/keep the task on track. Each participant will give an honest e
 * 👩 Some (or all) Developers
 * ⏰ 5pm
 * 🗺 Round Table or Named Hangout
-* 📣 Announced in the #5pm Slack channel
+* 📣 Announced in the #PP Slack channel
 * ✍️Pen/Notebook
 
-The 5pm is an end of day meeting, usually only if there are low-complexity tasks to be discussed. You may hear
- references about a 5pm which actually is at 09:30am! This was because we found it easier to deal with some of these
-  tasks early in the morning so the end of the day wasn't fixed/pinned by a meeting. 
-  
-  Beware that if someone says to '5pm it' it usually means to discuss at the next morning meeting.
+The 5pm is an end of day meeting, usually only if there are low-complexity tasks to be discussed. Beware that if someone says to '5pm it' it usually means to discuss at the next morning meeting.

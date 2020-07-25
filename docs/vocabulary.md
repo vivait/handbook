@@ -4,13 +4,13 @@
 
 We try and make sure that we use language that isn't too full of technical jargon where it can be avoided. We generally don't want to use abbreviations a lot (especially with newcomers). However like most other companies and organisations in the world, Viva IT has a vocabulary that's developed internally to refer to our products, processes, tools and techniques.
 
-
-
-## AC ([Acceptance Criteria](https://en.wikipedia.org/wiki/Acceptance_testing))
+## Acceptance Criteria (AC)
+> https://en.wikipedia.org/wiki/Acceptance_testing
 
 The AC helps define what a task should do, consider it a minimum to the task being signed off by the ultimate client. It may be changed over time (this will be considered a scope extension and may attract a re-estimate), it may be reduced, it may be 'spun-out' into another task. The user-acceptance criteria may be defined by this (what will be tested in UAT)
 
-## APF ([Apollo Flow](https://github.com/vivait/apollo-flow))
+## Apollo Flow (APF)
+> https://github.com/vivait/apollo-flow 
 
 Apollo Flow - Data capture platform with workflows
 
@@ -26,9 +26,8 @@ Our business continuity service which allows member queries to be handled remote
 
 The total of your work items and requests, tagged by priority. Our development 'todo list' for you.
 
-## CU ([Credit Union](https://en.wikipedia.org/wiki/Credit_union))
-
->A credit union is a member-owned financial cooperative, controlled by its members and operated on the principle of people helping people, providing its members credit at competitive rates as well as other financial services.
+## Credit Union (CU)
+> A credit union is a member-owned financial cooperative, controlled by its members and operated on the principle of people helping people, providing its members credit at competitive rates as well as other financial services. https://en.wikipedia.org/wiki/Credit_union
 
 ## Helpdesk
 
@@ -46,9 +45,9 @@ Our new credit union workstream management tool with more powerful automations a
 
 A community space for our partners to share tips and best practices, and get involved with out latest R&D developments and features. Talk you your account manager for access.
 
-## PP ([Planning Poker](https://en.wikipedia.org/wiki/Planning_poker))
+## Planning Poker (PP)
 
-While typically done in the fashion described [here](https://www.mountaingoatsoftware.com/agile/planning-poker) - ours is slightly different. We don't stick to set story points, because we use hours to estimate tasks. Therefore we each estimate how long a task will take, and keep our estimate secret until revealing it once everyone has one. Through this, we will then either discuss the times (if there's a wide variance in high & low time estimates) or generally pick the higher estimate if the estimates are all fairly similar. For example, if 2 people say 4 hours and one person says 5, we might discuss it and either could be valid. But if 2 people say 5 hours and one person says 4, we'll likely pick 5 hours.
+Planning poker, this is a method for roughly estimating the requirements (time and resources) of work, more details can be found in [Scrum and PP](scrum.md) 
 
 ## Scorecard
 
@@ -81,7 +80,7 @@ Timeboxes are useful for proof-of-concepts and investigation into third-party se
 
 Issued via the Helpdesk or youtrack, a code similar to 'ABC-123' unique for tracking the status of each work item with us. A 'case reference'.
 
-## UAT (User Acceptance Testing)
+## User Acceptance Testing (UAT)
 
 The end-user version of AC
 
@@ -89,9 +88,9 @@ The end-user version of AC
 
 The spreadsheets we create to provide instructions to our development team on how to construct your forms.
 
-## WIP (Work In Progress)
+## Work In Progress (WIP)
 
-Abbreviation used in Git Commits
+Abbreviation used in Git Commits to indicate the branch or code is not ready for merging.
 
 ## YouTrack
 
