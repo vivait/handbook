@@ -6,8 +6,8 @@ Show-stoppers are not considered meetings, they follow a [separate process](show
 
 ## Scrum
 * 👩 Everyone 
-* ⏰ Every day at 09:15
-* ⏳ ~15 minutes
+* ⏰ Every day at 09:10
+* ⏳ ~20 minutes
 * 🗺 Round Table or Named Hangout
 * 📣 LaMetric notification, please be prompt and on-time _(arrive slightly before)_
 * ✍️  Pen/Notebook
