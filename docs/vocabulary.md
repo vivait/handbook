@@ -49,6 +49,10 @@ A community space for our partners to share tips and best practices, and get inv
 
 Planning poker, this is a method for roughly estimating the requirements (time and resources) of work, more details can be found in [Scrum and PP](scrum.md) 
 
+## Rabbit Hole
+
+An internal development term to imply that once you are in the rabbit hole you cannot extract yourself without significant effort, often not towards the overall goal. Rabbit holes should be approached with extrieme caution as they can be a whole waste of time and a source of frustration. It is useful to identify rabbit holes early so you can seek out senior help at the earliest possible time and thus tagging the issue `Complex`
+
 ## Scorecard
 
 Creates a score based on heavily customisable factors, usually for a specific form. Can be used to intelligently route the flow of your forms and processes automatically.  One example might be sending out a different message depending on the time of day a form is received to manage customer expectations, another might be calculating whether a credit search must be performed on a loan application of a certain value.
