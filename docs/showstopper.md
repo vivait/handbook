@@ -6,11 +6,7 @@ A showstopper is defined as a hardware or software bug of extreme severity which
 
 ## Summary - Temporary key showstopper roles
 
-*Incident Leader* - The most experienced developer available. Leads efforts to diagnosis & fix. Usually updates status.vivait.co.uk
-
-*Pair Programmer* - A developer who sits with Incident Leader and assists them and peer reviews work.
-
-*Showstopper Developer* - A developer working on the showstopper at their own desk.
+*Incident Leader* - The developer who self-assigns the showstopper to being 'In Progress' on YouTrack, sometimes following brief collaboration with the team to avoid duplication of effort. Leads efforts to diagnosis & fix. Usually updates status.vivait.co.uk
 
 *Liaison Developer* - A developer who updates the Account Manager.
 
@@ -24,17 +20,17 @@ A showstopper is defined as a hardware or software bug of extreme severity which
 
 Declare a showstopper by changing the 'priority' of a YouTrack issue to 'Show-stopper'. This causes an automated notification to appear in the #service-status channel of the Viva IT Slack group. Once made aware of the issue in this way, team members should be ready to put what they are currently working on aside.
 
-The most senior developer available in terms of experience takes ownership of the showstopper incident and leads the team, who instantly shift into a more hierarchical and controlled way of working than normal. 
+An available developer takes ownership of the showstopper incident and leads the team, who instantly shift into a more hierarchical and controlled way of working than normal. 
 
 ### Team Formation
 
-This ‘[Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles)’ will soon nominate which developers are needed to directly assist them in diagnosis and fixing of the showstopper. It is also typical for a developer to sit with the [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) in a form of pair programming, due to the need for a faster code review process. Any developers involved in the showstopper will typically set their Slack status to very busy (a red heart icon) to communicate their involvement, and so that they are not interrupted or ‘context switched’ regarding less important manners.
+This ‘[Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles)’ will soon nominate which developers are needed to directly assist them in diagnosis and fixing of the showstopper. Any developers involved in the showstopper will typically set their Slack status to very busy (a red heart icon) to communicate their involvement, and so that they are not interrupted or ‘context switched’ regarding less important manners.
 
 ### Communications
 
 During the first few minutes of a showstopper the [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) will likely update the [https://status.vivait.co.uk](https://status.vivait.co.uk) page and instruct the [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) on any relevant initial communications to make.
 
-As the [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) will not have the time to explain ongoing developments to the [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) in a suitable format, nor answer questions, a developer who is not required directly to fix the showstopper will act as [liaison](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) between [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) and [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) by listening in to the technical situation from the [Incident leaders](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) desk in a non-disruptive way, and then going away and talking to the [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) to translate the update into a less technical format and attempt to answer any questions. 
+As the [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) will not have the time to explain ongoing developments to the [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) in a suitable format, nor answer questions, a developer who is not required directly to fix the showstopper will often act as [liaison](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) between [Incident leader](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) and [Account Manager](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) by translating updates into a less technical format and attempting to answer any questions. 
 
 Any [other developers](https://github.com/vivait/handbook/blob/master/showstopper.md#summary---temporary-key-showstopper-roles) will listen in and follow #service-status to observe the general situation as there is always a chance they will be needed to help. Internal correspondence during a showstopper incident should be logged clearly in #service-status, including summaries of key verbal conversations. A more explicit and clear level of detail in communications is required during showstopper incidents to effectively keep the team apprised and in unison on the status of a potentially fast moving and fluid situation.
 
