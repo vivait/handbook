@@ -9,14 +9,33 @@ We try and make sure that we use language that isn't too full of technical jargo
 
 The AC helps define what a task should do, consider it a minimum to the task being signed off by the ultimate client. It may be changed over time (this will be considered a scope extension and may attract a re-estimate), it may be reduced, it may be 'spun-out' into another task. The user-acceptance criteria may be defined by this (what will be tested in UAT)
 
+## Apollo
+
+The name for our suite of joined-up services, from the form a member completes on their app through to the automated decisioning and import into your back office software, and everything in between.
+
 ## Apollo Flow (APF)
 > https://github.com/vivait/apollo-flow 
 
 Apollo Flow - Data capture platform with workflows
 
-## Apollo
+## Apollo Launchpad (APL)
 
-The name for our suite of joined-up services, from the the form a member completes on their app through to the automated decisioning and import into your back office software, and everything in between.
+Our current credit union workstream management tool which will replace Task Stack in the long term.
+
+## Apollo Web (APW)
+> https://github.com/vivait/apollo-web
+
+The web application for Apollo
+
+## Apollo Mobile (AMO)
+> https://github.com/vivait/apollo-mobile
+
+The native mobile application for Apollo which is available for IOS and Android devices.
+
+## Apollo NXG (APP)
+> https://github.com/vivait/apollo-nxg
+
+Next-generation data platform for credit unions. The software that provides the core logic and functionality of the Apollo services. 
 
 ## Airlock
 
@@ -84,9 +103,13 @@ Timeboxes are useful for proof-of-concepts and investigation into third-party se
 
 Issued via the Helpdesk or youtrack, a code similar to 'ABC-123' unique for tracking the status of each work item with us. A 'case reference'.
 
+## Upsource
+
+The code review software used by the Viva IT team to manage and coordinate the work items we are undertaking for you (both new development and helpdesk tickets).
+
 ## User Acceptance Testing (UAT)
 
-The end-user version of AC
+The end-user version of AC.
 
 ## Workflow Specification
 
