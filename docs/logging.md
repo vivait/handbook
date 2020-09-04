@@ -12,6 +12,7 @@ will be using the logs to get that. So some guidelines are:
 * Try not to over capitalise:
  `Received Request to Import` should be `Received request to import` 
 * Reference entity identifiers and enclose them in square brackets: `to import withdrawal` should be `to import Withdrawal [1]`
+* When available use database ID's as entity identifiers
 * When referencing variables, enclose them in single quotes: `for amount 1.00` should be `for amount '1.00'`
 * Avoid calling ID's: `Withdrawal ID: [1]` should be `Withdrawal [1]` 
 * Entity names should be capitalised: `to import withdrawal` should be `to import Withdrawal`
