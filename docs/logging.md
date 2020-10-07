@@ -65,7 +65,7 @@ https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#using-the-logging
 # Logging Levels 
 
 | Level | Name | When to use |
-|---|---|---|---|
+|---|---|---|
 | 0  | Emergency | Significant fault or breach of security that needs IMMEDIATE investigation |
 | 1  | Alert     | Significant fault or breach of security that needs IMMEDIATE investigation |
 | 2  | Critical  | A failure state that requires IMMEDIATE investigation, these can usually trigger HTTP 500 errors which can bubble up to the user, resulting in visible problems. |
