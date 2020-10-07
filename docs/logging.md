@@ -42,56 +42,64 @@ together without having to resort to debugging code.
 app.EMERGENCY: Withdrawal [1] could not import, database connection timed out'
 ```
 
+## Context
+Where possible, you should supply context to the log entry through the 'context' facility of the logger (such as Monolog), this helps to collect metrics and to perform further investigation if needed.
+
+For example, when processing a job, it would be useful to see the ID of that job during each logging entry, but this would become quickly cumbersome if you were reporting the ID on each line. Using the context means that it becomes possible to view threads of events, and supply additional information without worry about presenting it in 'human readable formatting'. In Monolog, the context array can be used for this purpose.
+
+https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#using-the-logging-context
+
+```php
+            $this->logger->error(
+                "Job [{$jobId}] threw a terminal exception: " . $exception->getMessage(),
+                [
+                    'jobId' => $jobId,
+                    'exception' => $exception->getMessage(),
+                    'stackTrace' => $exception->getTrace()
+                ]
+            );
+```
+
+
+
 # Logging Levels 
 
-## Debug
-Very verbose information used by developers that is ignored except for when explicitly debugging.
+| Level | Name | When to use |
+|---|---|---|---|
+| 0  | Emergency | Significant fault or breach of security that needs IMMEDIATE investigation |
+| 1  | Alert     | Significant fault or breach of security that needs IMMEDIATE investigation |
+| 2  | Critical  | A failure state that requires IMMEDIATE investigation, these can usually trigger HTTP 500 errors which can bubble up to the user, resulting in visible problems. |
+| 3  | Error     | A failure state that REQUIRES investigation at some point, however execution doesn't halt. Doesn't have to be a code level failure, could just be a domain issue (e.g. two S1 accounts) |
+| 4  | Warning   | Notable failure events but still normal execution continues - requires no immediate notification. However the quantity of these events are monitored and excessive number of warnings could result in a fault. |
+| 5  | Notice    | Notable neutral or positive but entirely normal events where execution continues - requires no notifications |
+| 6  | Info      | A 'production level' debug - typically used to supply context to other log events when investigating. |
+| 7  | Debug     | Very verbose information used by developers that is ignored except for when explicitly debugging. | 
 
-### Examples
-* When a method is entered
-* The entirety of an object
-* Mapping the execution path
-
-## Info
-A 'production level' debug - typically used to supply context to other log events when investigating.
-
-### Examples
-* A member is being synced
-* A product's availability/eligibility is being checked
-
-## Notice
-Notable neutral or positive but entirely normal events where execution continues - requires no notifications
-
-### Examples
-* A member SUCCEEDED login
-* A member COMPLETED a form
-* Withdrawal SUCCESSFULLY imported
-
-## Warning
-Notable failure events but still normal execution continues - requires no immediate notification. However the quantity
-of these events are monitored and excessive number of warnings could result in a fault.
-
-### Examples
-* A member has FAILED to log on
-* A member has been banned
-
-## Error
-A failure state that REQUIRES investigation at some point, however execution doesn't halt. 
-Doesn't have to be a code level failure, could just be a domain issue (e.g. two S1 accounts)
-
-### Examples
-* A duplicate transaction in a sync payload - it's ignored and carries on but should be addressed
-* HTTP 400 was returned when submitting information from one service to another
+# Typical Examples of Use
 
 ## Critical
-A failure state that requires IMMEDIATE investigation, these can usually trigger HTTP 500 errors which can bubble up to 
-the user, resulting in visible problems.
-
-### Examples
 * Sync payloads couldn't process (will result in stale data)
 * Pages don't load at all on the front-end
 * Member cannot load forms
 
-## Emergency
-### Examples
-Immediate showstopper - everyone notified
+## Error
+* A duplicate transaction in a sync payload - it's ignored and carries on but should be addressed
+* HTTP 400 was returned when submitting information from one service to another
+
+## Warning
+* A member has FAILED to log on
+* A member has been banned
+
+## Notice
+* A member SUCCEEDED login
+* A member COMPLETED a form
+* Withdrawal SUCCESSFULLY imported
+
+## Info
+* A member is being synced
+* A product's availability/eligibility is being checked
+
+## Debug
+* When a method is entered
+* The entirety of an object
+* Mapping the execution path
