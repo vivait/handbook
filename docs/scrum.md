@@ -8,6 +8,7 @@ Although not a traditional scrum or stand-up, this is the opportunity for all me
   * Deploying
   * UAT
 * Discuss what everyone is currently working on
+  * Any updates to the task (delays, etc) should be annotated as a comment on the task.
 * Discuss immediate requirements post scrum (assistance) 
 
 # Planning Poker (PP)
