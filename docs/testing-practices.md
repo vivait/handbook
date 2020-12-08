@@ -16,6 +16,14 @@ A well tested system consists of the right blend of multiple different types of 
 In the following sections we'll explore each of the tests in the above image and their usages.
 
 ## Unit tests
-Unit tests should be the most common type of tests in an application, these are tests which test the smallest unit of an application (such a method or a function). Unit tests run quickly this allows you to write as many of them as you need to cover all code flows and you should attempt to do this. 
+Unit tests should be the most common type of tests in an application, these are tests which test the smallest part (or unit) of an application (such a class method or a function). Unit tests should be designed to run quickly. Doing so allows you to cover all code execution paths and to use a variety of different datasets.
 
-We have tools to 
+At Viva IT we use the following tools to write unit tests:
+- [PHPUnit](https://phpunit.de/). Used for unit testing PHP scripts.
+- [Jest](https://jestjs.io/). Used for unit testing Javascript code, we also use it for React with [Enzyme](https://enzymejs.github.io/enzyme/).
+
+### Mocking
+TBD
+
+## Integration tests
+
