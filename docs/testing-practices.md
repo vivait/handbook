@@ -23,7 +23,19 @@ At Viva IT we use the following tools to write unit tests:
 - [Jest](https://jestjs.io/). Used for unit testing Javascript code, we also use it for React with [Enzyme](https://enzymejs.github.io/enzyme/).
 
 ### Mocking
-TBD
+Mocking is the practice of faking the dependencies of a unit of software, and using those mocks to assert that the unit being tested correctly calls its dependencies. Good quality mocking is an essential part of writing effective unit tests when dependencies are involved. Mocking allows a developer to increase the speed of their unit tests by ensuring a program doesn't make expensive calls to a database or third-party API. Mocking also allows unit tests to test software execution paths which would be difficult simulate in integration or end to end tests, such as errors.
+
+We use the following mocking tools at Viva IT:
+- [PHPUnit mocks](https://phpunit.de/manual/6.5/en/test-doubles.html). This mocking library is provided with PHPUnit.
+- [Jest](https://jestjs.io/docs/en/mock-functions). A mocking library is also provided with Jest by default.
+
+Where mocking is useful:
+- ☑️ Unit tests which contain dependencies on other units.
+
+Where mocking isn't necessary:
+- ❌ Value objects or entities which classes use to accept/manipulate data.
 
 ## Integration tests
+
+TBD
 
