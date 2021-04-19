@@ -95,6 +95,15 @@ identify problems/keep the task on track. Each participant will give an honest e
 * ⏰ 5pm
 * 🗺 Round Table or Named Hangout
 * 📣 Announced in the #PP Slack channel
-* ✍️Pen/Notebook
 
 The 5pm is an end of day meeting, usually only if there are low-complexity tasks to be discussed. Beware that if someone says to '5pm it' it usually means to discuss at the next morning meeting.
+
+## Check-ins / Timebox Extension
+* 👩 Some (or all) Developers
+* ⏰ Usually every 2.5h during a `Timebox` task (specified at scrums/PP's)
+* ⏳ 10m
+* 🗺 Named Hangout 
+* 📣 By request (DM or @) by the person performing the work to the pre-arranged participants
+* ⚡ Screenshare to demonstrate progress is essential for clear interpretation of progress.
+
+A check-in is a formal request for extension of a `Timebox`, typically when approaching the end of a timebox, you will seek an extension. In normal circumstances the `Timebox` will be extended by another period of time. The purpose of the timebox is to explain your thoughts, processes and demonstrate progress so that the early warning signs of a Rabbit Hole or Zombie task can be detected and avoided. 
